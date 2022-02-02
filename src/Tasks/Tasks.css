@@ -1,0 +1,51 @@
+.tasks {
+    padding: 1rem;
+    background-color:#f5f4f8;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 5px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background-color: rgb(59, 55, 58);
+  }
+  
+  .priority1 {
+    color: green;
+  }
+
+  .priority2 {
+    color: yellow;
+  }
+
+  .priority3 {
+    color: red;
+  }
+
+  .tasks button {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #8b005d;
+    color: white;
+    background: #770812;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+  }
+  
+  .tasks button:focus {
+    outline: none;
+  }
+  
+  .tasks button:hover,
+  .tasks button:active {
+    background: #470322;
+    border-color: #ac0e77;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+  }
