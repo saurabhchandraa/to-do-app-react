@@ -29,7 +29,7 @@ function App() {
 
   useEffect(() => {
     getTask2();
-  }, [priority2])
+  }, [])
 
   const getTask2 = () => {
     getPriority2().then((response) => {
@@ -39,7 +39,7 @@ function App() {
 
   useEffect(() => {
     getTask3();
-  }, [priority3])
+  }, [])
 
   const getTask3 = () => {
     getPriority3().then((response) => {
